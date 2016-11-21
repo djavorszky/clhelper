@@ -26,7 +26,7 @@ func main() {
 
 	flag.Usage = func() {
 		explanation :=
-			`Spit is a CLI app written in Go that copies fixes from the patches folder (patching-tool/patches)
+			`Spit is a CLI app written in Go that moves fixes from the patches folder (patching-tool/patches)
 to a temp folder (patching-tool/spit) and vice-versa.
 You can specify as many filenames as arguments as you'd like.
 
